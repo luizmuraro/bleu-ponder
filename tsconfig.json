@@ -12,15 +12,15 @@
     "resolveJsonModule": true,
 
     // Language and environment
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "module": "ESNext",
     "noEmit": true,
     "lib": ["ES2022"],
-    "target": "ES2022",
+    "target": "ESNext",
 
     // Skip type checking for node modules
     "skipLibCheck": true
   },
-  "include": ["./**/*.ts"],
+  "include": ["./**/*.ts", "ponder.schema.ts", "ponder.config.js"],
   "exclude": ["node_modules"]
 }
